@@ -61,6 +61,8 @@ Before using the application, you need to configure the `virtualReceptionistSpea
 * **Input Speaker ID**: Replace `"..."` with the actual `speakerId` of your virtual receptionist account.
     * This ID can be found in the JSON response when the transcription is turned on under the "Advance Meeting Controls" section of the application itself. Look for the `speakerId` associated with your virtual receptionist's transcription when it's audio is captured.
 
+Also in the `server.js` file, remember to update the `HEYGEN_API_KEY` to your API key.
+
 ## Operational Flow
 
 Follow these steps to operate the Webex SDK:
