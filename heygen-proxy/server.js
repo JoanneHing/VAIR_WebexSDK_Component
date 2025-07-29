@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3001; 
 
 
-const HEYGEN_API_KEY = 'YjRkNTViMWZjZWE0NDE1OWEyOTVhMTVmZTM5NzYxMzQtMTc0NzI5MzI5Ng=='; 
+const HEYGEN_API_KEY = '..'; // Replace with actual HeyGen API key
 
 app.use(cors()); 
 app.use(express.json()); 
